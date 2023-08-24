@@ -1,0 +1,53 @@
+.container-home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+
+}
+
+.conteudo-home {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-home .img>img {
+    width: 400px;
+}
+
+.conteudo-home .escrita {
+    width: 400px;
+}
+
+.conteudo-home .escrita button {
+    margin-top: 20px;
+    background-color: rgb(13, 13, 13);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.conteudo-home .escrita button:hover {
+    background-color: rgb(24, 24, 24);
+    border-radius: 5px;
+
+}
+
+@media screen and (max-width:415px) {
+    .conteudo-home .img>img {
+        width: 100%;
+    }
+
+    .conteudo-home .escrita {
+        width: 100%;
+    }
+}
